@@ -1,0 +1,9 @@
+on_destroy_planet_with_QSC_ENDSINGER = {
+                   events = {
+                       qsc_endsinger.1
+                   }
+}
+on_destroy_planet_with_QSC_ENDSINGER_queued = {
+}
+on_destroy_planet_with_QSC_ENDSINGER_unqueued = {
+}

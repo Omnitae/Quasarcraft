@@ -1,0 +1,335 @@
+namespace = giga_qsc_dialog
+
+country_event = {
+	id = giga_qsc_dialog.2801
+	title = "giga_qsc_dialog.2801.name"
+	desc = "giga_qsc_dialog.2801.desc"
+	picture = GFX_evt_phenkka_quasar
+	show_sound = event_dyson_sphere_build_start
+	is_triggered_only = yes
+	option = { name = "giga_qsc_dialog.2801.a" }
+}
+
+# Construction Site
+country_event = {
+	id = giga_qsc_dialog.2802
+	title = "giga_qsc_dialog.2802.name"
+	desc = "giga_qsc_dialog.2802.desc"
+	picture = GFX_evt_phenkka_quasar
+	show_sound = event_dyson_sphere_build_start
+	is_triggered_only = yes
+	location = event_target:giga_qsc_planet
+	option = { name = "giga_qsc_dialog.2802.a" }
+}
+
+# P1 Complete
+country_event = {
+	id = giga_qsc_dialog.2803
+	title = "giga_qsc_dialog.2803.name"
+	desc = "giga_qsc_dialog.2803.desc"
+	picture = GFX_evt_phenkka_quasar
+	show_sound = event_dyson_sphere_build_upgrade_panel
+	is_triggered_only = yes
+	location = event_target:giga_qsc_planet
+	option = { name = "giga_qsc_dialog.2803.a" }
+}
+
+# P2 Complete
+country_event = {
+	id = giga_qsc_dialog.2804
+	title = "giga_qsc_dialog.2804.name"
+	desc = "giga_qsc_dialog.2804.desc"
+	picture = GFX_evt_phenkka_quasar
+	show_sound = event_dyson_sphere_build_upgrade_panel
+	is_triggered_only = yes
+	location = event_target:giga_qsc_planet
+	option = { name = "giga_qsc_dialog.2804.a" }
+}
+
+# P4 Complete
+country_event = {
+	id = giga_qsc_dialog.2805
+	title = "giga_qsc_dialog.2805.name"
+	desc = "giga_qsc_dialog.2805.desc"
+	picture = GFX_evt_phenkka_quasar
+	show_sound = event_dyson_sphere_build_upgrade_panel
+	is_triggered_only = yes
+	location = event_target:giga_qsc_planet
+	option = { name = "giga_qsc_dialog.2805.a" }
+}
+
+# P5 Complete
+country_event = {
+	id = giga_qsc_dialog.2806
+	title = "giga_qsc_dialog.2806.name"
+	desc = "giga_qsc_dialog.2806.desc"
+	picture = GFX_evt_phenkka_quasar
+	show_sound = event_dyson_sphere_build_upgrade_panel
+	is_triggered_only = yes
+	location = event_target:giga_qsc_planet
+	option = { name = "giga_qsc_dialog.2806.a" }
+}
+
+# Complete
+country_event = {
+	id = giga_qsc_dialog.2807
+	title = "giga_qsc_dialog.2807.name"
+	desc = "giga_qsc_dialog.2807.desc"
+	picture = GFX_evt_phenkka_quasar
+	show_sound = event_dyson_sphere_build_complete
+	is_triggered_only = yes
+	option = { name = "giga_qsc_dialog.2807.a" }
+}
+
+namespace = giga_qsc
+
+ship_event = {
+	id = giga_qsc.050
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	    save_event_target_as = quasarcraft_owner
+	    set_variable = {
+	        which = qsc_ship_life_count
+            value = 500
+	    }
+    }
+}
+
+ship_event = {
+	id = giga_qsc.101
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+    	is_ship_size = agx_quasarcraft
+		check_variable = {
+			which = qsc_ship_life_count
+			value > 0
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				check_variable = {
+					which = qsc_ship_life_count
+					value > 0
+				}
+			}
+			repair_ship = yes
+			set_disabled = no
+			subtract_variable = {
+				which = qsc_ship_life_count
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {
+					which = qsc_ship_life_count
+					value = 0
+				}
+			}
+			destroy_ship = ROOT
+			root.owner = {
+				country_event = { id = giga_qsc.1040 }
+			}
+		}
+	}
+}
+
+# ship_event = {
+# 	id = giga_qsc.102
+# 	hide_window = yes
+# 	is_triggered_only = yes
+
+# 	trigger = {
+#     	is_ship_size = agx_quasarcraft
+# 		NOT = {
+# 		event_target:quasarcraft_owner = {
+# 		    check_variable = {
+# 					which = qsc_ship_life_count
+# 					value = 1
+# 		    }
+# 		}
+# 		}
+# 	}
+
+# 	immediate = {
+# 		ROOT.solar_system = {
+# 			create_ambient_object = {
+# 				type = "star_explosion"
+# 				play_animation_once = yes
+# 				location = ROOT
+# 			}
+# 			set_global_flag = quasarcraft_destroyed
+# 		}
+# 		if = { 
+# 		    limit = {
+# 			event_target:quasarcraft_owner = {
+# 		    check_variable = {
+# 					which = qsc_ship_life_count
+# 					value = 1
+# 		      }
+# 		     }
+# 		    }
+# 		destroy_ship = ROOT
+# 		root.owner = {
+# 		    country_event = { id = giga_qsc.1040 }
+# 		}
+# 		else = {
+# 		    repair_ship = yes
+# 		    set_disabled = no
+# 		    event_target:quasarcraft_owner = {
+# 			    subtract_variable = {
+# 				    which = qsc_ship_life_count
+# 				    value = 1
+# 			    }
+# 		    }
+# 		}
+# 		}
+# 	}
+# }
+
+#QSC ded
+country_event = {
+	id = giga_qsc.1040
+	title = "giga_qsc.1040.name"
+	desc = "giga_qsc.1040.desc"
+	picture = GFX_evt_supernova
+	show_sound = event_dyson_sphere_build_complete
+	is_triggered_only = yes
+	option = { name = "giga_qsc.1040.a" }
+}
+
+#QSC is in the system
+
+fleet_event = {
+	id = giga_qsc.201
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        owner = {
+		    any_owned_ship = {
+			    is_ship_size = agx_quasarcraft
+	        }
+		}
+	}
+	
+	immediate = { 
+	    solar_system = {
+		    set_star_flag = qsc_in_system
+        }
+    }		
+}
+
+country_event = {
+	id = giga_qsc.202
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+        any_owned_ship = {
+			is_ship_size = agx_quasarcraft
+	    }
+	}
+	
+	immediate = { 
+	    every_system = {
+		    limit = {
+			    has_star_flag = qsc_in_system
+				NOT = {
+				    any_ship_in_system = {
+					   is_ship_size = agx_quasarcraft
+					}
+				}
+			}
+			remove_star_flag = qsc_in_system
+        }
+    }		
+}
+
+# namespace = giga_blokkpass
+
+# ship_event = {
+# 	id = giga_blokkpass.100
+# 	hide_window = yes
+# 	is_triggered_only = yes
+
+# 	trigger = {
+# 		is_ship_size = agx_quasarcraft
+# 	}
+
+# 	immediate = {
+# 		if = {
+# 			limit = { solar_system = {is_same_value = event_target:current_blokkat_mothership_system} }
+# 			set_global_flag = blokkat_mothership_shield_down
+# 			every_system = {
+# 				limit = { has_modifier = blokkat_mothership_shield }
+# 				remove_modifier = blokkat_mothership_shield
+# 			}
+# 		}
+# 		}
+# 	}
+# ship_event = {
+# 	id = giga_blokkpass.1001
+# 	hide_window = yes
+# 	is_triggered_only = yes
+
+# 	trigger = {
+# 		has_global_flag = blokkat_crisis_ongoing
+# 		has_global_flag = qsc_blokm_shield_block
+# 		is_ship_size = giga_blokkat_mothership
+# 		event_target:blokkat_country = {
+# 			check_variable = {
+# 				which = blokkat_mothership_life_count
+# 				value > 1
+# 			}
+# 		}
+# 	}
+
+# 	immediate = {
+# 		repair_ship = yes
+# 		set_disabled = no
+# 		event_target:blokkat_country = {
+# 			subtract_variable = {
+# 				which = blokkat_mothership_life_count
+# 				value = 1
+# 			}
+# 		}
+# 	}
+# }
+
+# ship_event = {
+# 	id = giga_blokkpass.110
+# 	hide_window = yes
+# 	is_triggered_only = yes
+
+# 	trigger = {
+# 		has_global_flag = blokkat_crisis_ongoing
+# 		has_global_flag = qsc_blokm_shield_block
+# 		is_ship_size = giga_blokkat_mothership
+# 		event_target:blokkat_country = {
+# 			check_variable = {
+# 				which = blokkat_mothership_life_count
+# 				value = 1
+# 			}
+# 		}
+# 	}
+
+# 	immediate = {
+# 	    root = {
+# 	    solar_system = {
+# 		    any_ship_in_system = {
+# 		        limit = { 
+# 			        is_ship_size = agx_quasarcraft 
+# 			    }
+# 			    this.owner = { country_event = { id = giga_blokkat.1030 } }
+# 		    }
+# 		}
+# 		}
+# 	}
+# }

@@ -1,0 +1,168 @@
+agx_quasarcraft = {
+	graphical_culture = no
+	entity = "qsc_01_ship_entity"
+	max_speed = 250
+	acceleration = 0.01
+	rotation_speed = 0.01
+	collision_radius = 256
+	formation_priority = 256
+	combat_disengage_chance = -42.69
+	modifier = {
+		ship_hull_regen_add_static = 90000000
+		ship_armor_regen_add_static = 90000000
+		ship_shield_regen_add_static = 90000000
+		# ship_hull_regen_add_perc = 50
+		# ship_armor_regen_add_perc = 50
+		# ship_shield_regen_add_perc = 50
+		ship_evasion_mult = -0.9
+		ship_armor_add = 300000000
+		ship_shield_add = 300000000
+		ship_starting_experience_add = 5000
+	}
+	max_hitpoints = 300000000
+	size_multiplier = 500
+	fleet_slot_size = 256
+	section_slots = {
+		"main1" =			    { locator = "root" }
+		"main2" =				{ locator = "root" }
+		"halo1" =				{ locator = "root" }
+		"halo2" =			    { locator = "root" }
+		"jupiters" =			{ locator = "root" }
+		"celfab" =	            { locator = "root" }
+	}
+	num_target_locators = 0
+	icon = ship_size_atk_system
+	ship_class_icon_frame = 28
+	prerequisites = { "agx_tech_quasarcraft_6" }
+	enable_default_design = yes
+	class = shipclass_military
+	can_disable = yes
+	can_have_federation_design = no
+	possible_construction = { always = no }
+
+	is_civilian = no
+	is_designable = yes
+	components_add_to_cost = no
+
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+	required_component_set = "ship_aura_components"
+	required_component_set = "ship_aura_components"
+	required_component_set = "ship_aura_components"
+
+	resources = {
+		category = ships
+		produces = {
+			sr_solar_energy = 25
+			sr_magical_neutronium = 50
+		}
+		upkeep = {
+			alloys = 12000
+
+		}
+	}
+}
+
+# incisor_calibrator = {
+# 	max_speed = 300
+# 	acceleration = 0.4
+# 	graphical_culture = no
+# 	rotation_speed = 0.15
+# 	modifier = {
+# 		ship_armor_add = 5000
+# 		ships_upkeep_mult = -1
+# 		ship_evasion_mult = -1
+# 		ship_disengage_chance_mult = -10
+# 	}
+# 	max_hitpoints = 10000
+# 	size_multiplier = 1
+# 	fleet_slot_size = 1
+# 	section_slots = { "mid" = { locator = "part1" } }
+# 	num_target_locators = 0
+# 	is_space_station = no
+# 	icon = ship_size_military_1
+# 	possible_construction = { always = no }
+# 	class = shipclass_military
+# 	is_designable = no
+
+# 	required_component_set = "ftl_components"
+# 	required_component_set = "combat_computers"
+# }
+
+# quasarcraft_wormhole = {
+# 	max_speed = 10
+# 	acceleration = 0.1
+# 	graphical_culture = no
+# 	rotation_speed = 3
+# 	modifier = {
+# 		ships_upkeep_mult = -1
+# 		ship_evasion_mult = -1
+# 		ship_disengage_chance_mult = -10
+# 	}
+# 	max_hitpoints = 10000000
+# 	size_multiplier = 1
+# 	fleet_slot_size = 1
+# 	section_slots = { "mid" = { locator = "part1" } }
+#     section_slots = { "mid2" = { locator = "part1" } }
+# 	num_target_locators = 0
+# 	is_space_station = no
+# 	icon = ship_size_space_monster
+# 	possible_construction = { always = no }
+# 	class = shipclass_military
+# 	is_designable = no
+# }
+
+#agx_kaiser = {
+#	graphical_culture = no
+#	entity = "kaiser_redux_entity"
+#	max_speed = 1000
+#	acceleration = 1
+#	rotation_speed = 1
+#	collision_radius = 1000
+#	formation_priority = 512
+#	modifier = {
+#		ship_evasion_mult = 1
+#		ship_armor_add = 200000000
+#		ship_shield_add = 100000000
+#		starbase_shipyard_capacity_add = 10
+#	}
+#	max_hitpoints = 300000000
+#	size_multiplier = 10000
+#	fleet_slot_size = 100000
+#	section_slots = {
+#		"Death" =			    { locator = "root" }
+#	}
+#	num_target_locators = 0
+#	icon = ship_size_atk_system
+#	ship_class_icon_frame = 28
+#	combat_disengage_chance = 0
+#	enable_default_design = no
+#	class = shipclass_starbase 
+#	can_disable = yes
+#
+#	is_civilian = no
+#	is_designable = yes
+#	components_add_to_cost = no
+#
+#	required_component_set = "power_core"
+#	required_component_set = "ftl_components"
+#	required_component_set = "thruster_components"
+#	required_component_set = "sensor_components"
+#	required_component_set = "combat_computers"
+#	required_component_set = "ship_aura_components"
+#	required_component_set = "ship_aura_components"
+#	required_component_set = "ship_aura_components"
+#
+#	resources = {
+#		category = ships
+#		upkeep = {
+#		    energy = 10000
+#			alloys = 5000
+#			influence = 10
+#           sr_magical_neutronium = -25
+#		}
+#	}
+#}

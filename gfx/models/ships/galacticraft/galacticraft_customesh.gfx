@@ -1,0 +1,132 @@
+objectTypes = {
+	pdxmesh = {
+		name = "glc_mamcol_mesh"
+		file = "gfx/models/ships/galacticraft/mamcolossus.mesh"
+	}
+	
+	pdxmesh = {
+		name = "glc_rear_mesh"
+		file = "gfx/models/ships/Galacticraft/GalacticraftRear.mesh"
+		animation = { id = "idle" 			type = "mega_shipyard_01_stage_3_idle_animation" }
+	}
+	
+	pdxmesh = {
+	    name = "glc_matdec_mesh"
+		file = "gfx/models/ships/Galacticraft/matdec.mesh"
+		animation = { id = "idle" 			type = "glc_ndb_idle" }
+	}	
+	pdxmesh = {
+		name = "glc_colwing_mesh"
+		file = "gfx/models/ships/galacticraft/colwing.mesh"
+	}
+	pdxmesh = {
+		name = "glc_ring_mesh"
+		file = "gfx/models/ships/galacticraft/ring.mesh"
+	}
+	pdxmesh = {
+		name = "glc_mscore_mesh"
+		file = "gfx/models/ships/glc_exc_parts/MSCore.mesh"
+		animation = { id = "idle" 			type = "mega_shipyard_01_stage_3_idle_animation" }
+	}
+	pdxmesh = {
+		name = "glc_titstern_mesh"
+		file = "gfx/models/ships/glc_exc_parts/ArthTitStern.mesh"
+	}
+	pdxmesh = {
+		name = "glc_warpqc_mesh"
+		file = "gfx/models/ships/glc_exc_parts/WarpdQuasar.mesh"
+	}	
+	pdxmesh = {
+		name = "glc_warpqc2_mesh"
+		file = "gfx/models/ships/glc_exc_parts/WarpdQuasarB.mesh"
+	}	
+	pdxmesh = {
+		name = "qsc_qcb1_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QC-B1.mesh"
+	}	
+	pdxmesh = {
+		name = "qsc_qcb2_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QC-B2.mesh"
+	}
+	pdxmesh = {
+		name = "qsc_qcb3_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QC-B3.mesh"
+	}
+    pdxmesh = {
+		name = "qsc_qcbloc_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QC-B-loc.mesh"
+	}
+    pdxmesh = {
+		name = "qsc_qcbeng_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QC-B-Eng.mesh"
+	}	
+	pdxmesh = {
+		name = "qsc_qcb_xltur_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QC-B-XLTUR.mesh"
+		animation = { id = "idle" 			type = "mega_shipyard_01_stage_3_idle_animation" }
+	}
+	pdxmesh = {
+		name = "bwc_bwc1_mesh"
+		file = "gfx/models/ships/glc_exc_parts/BWC-1.mesh"
+	}	
+	pdxmesh = {
+		name = "bwc_bwc2_mesh"
+		file = "gfx/models/ships/glc_exc_parts/BWC-2.mesh"
+	}	
+	pdxmesh = {
+		name = "bwc_bwc3_mesh"
+		file = "gfx/models/ships/glc_exc_parts/BWC-3.mesh"
+	}	
+	pdxmesh = {
+		name = "bwc_bwcloc_mesh"
+		file = "gfx/models/ships/glc_exc_parts/BWC-loc.mesh"
+	}
+	pdxmesh = {
+		name = "qbw_mid_1_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QBW-1.mesh"
+	}
+	pdxmesh = {
+		name = "qbw_mid_2_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QBW-2.mesh"
+	}
+	pdxmesh = {
+		name = "qbw_mid_3_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QBW-3.mesh"
+	}	
+	pdxmesh = {
+		name = "qbw_mid_4_mesh"
+		file = "gfx/models/ships/glc_exc_parts/QBW-4.mesh"
+	}
+	pdxmesh = {
+		name = "mid_com_mesh"
+		file = "gfx/models/ships/glc_exc_parts/MID-Com.mesh"
+	}
+	pdxmesh = {
+		name = "mid_brid_mesh"
+		file = "gfx/models/ships/glc_exc_parts/MID-Brid.mesh"
+	}
+	pdxmesh = {
+		name = "mid_hang_mesh"
+		file = "gfx/models/ships/glc_exc_parts/MID-Hang.mesh"
+	}
+	pdxmesh = {
+		name = "mid_base_mesh"
+		file = "gfx/models/ships/glc_exc_parts/MID-Base.mesh"
+	}
+	pdxmesh = {
+		name = "zeus_core_mesh"
+		file = "gfx/models/ships/glc_exc_parts/Z-CORE.mesh"
+	}
+	pdxmesh = {
+		name = "zeus_1_mesh"
+		file = "gfx/models/ships/glc_exc_parts/Z-01.mesh"
+	}
+	pdxmesh = {
+		name = "zeus_2_mesh"
+		file = "gfx/models/ships/glc_exc_parts/Z-02.mesh"
+	}
+	pdxmesh = {
+		name = "zeus_3_mesh"
+		file = "gfx/models/ships/glc_exc_parts/Z-03.mesh"
+	}
+}

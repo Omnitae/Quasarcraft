@@ -1,0 +1,17 @@
+ap_quasarcraft_research = {
+	on_enabled = {
+		add_research_option = agx_tech_quasarcraft_1
+		hidden_effect = { country_event = { id = giga_qsc_dialog.2801 }
+		}
+	}
+	possible = {
+		custom_tooltip = { fail_text = "needs_qso_perk" 	has_ascension_perk = "ap_qso" }
+		custom_tooltip = { fail_text = "needs_systemcraft_perk" 	has_ascension_perk = "ap_systemcraft" }
+		custom_tooltip = { fail_text = "needs_qso_tech" 	has_technology = "giga_tech_quasi_stellar_6" }
+	}           
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_quasarcraft_research
+		}
+	}
+}

@@ -1,0 +1,222 @@
+#Redo QSO
+quasarcraft_0 = {
+	entity = "quasarcraft_0_entity"
+	construction_entity = "quasarcraft_0_construction_entity"
+	portrait = "GFX_mega_qsc_bg"
+	place_entity_on_planet_plane = no
+	prerequisites = { agx_tech_quasarcraft_1 }
+	upgrade_from = { quasi_stellar_obliterator_5 }
+
+	build_time = 3600
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 750000
+			influence = 1000
+		}
+		upkeep = { energy = 150000 }
+	}
+
+	potential = {
+		has_ascension_perk = ap_quasarcraft_research
+		has_technology = agx_tech_quasarcraft_1
+		NOT = { has_global_flag = quasarcraft_disabled }
+	}
+
+	possible = {
+		custom_tooltip = { fail_text = "requires_no_existing_quasarcraft"					from = { NOT = { has_country_flag = built_quasarcraft } } }
+		custom_tooltip = { fail_text = "requires_inside_border"								is_inside_border = from }
+		custom_tooltip = { fail_text = "requires_surveyed_system"							giga_system_is_surveyed = yes }
+	}
+
+	placement_rules = {
+		planet_possible = {
+			custom_tooltip = { fail_text = "requires_no_anomaly"					has_anomaly = no }
+			custom_tooltip = { fail_text = "must_build_around_core_quasar"			is_planet_class = pc_core_quasar }
+		}
+	}
+
+	ai_weight = { factor = 0 }
+
+	on_build_complete = {
+		save_event_target_as = giga_system
+		set_global_flag = quasarcraft_construction
+		fromfrom.planet = {
+			save_event_target_as = giga_planet
+			if = { limit = { exists = orbital_station } orbital_station = { dismantle = yes } }
+			set_planet_flag = megastructure			# Vanilla uses to check if a megastrucure can be built here
+			set_planet_flag = has_megastructure		# Vanilla uses to check if an orbital station can be built here
+			set_planet_flag = cant_build_here
+			set_planet_flag = cant_target_this_planet
+		}
+		#every_megastructure = { 
+		#    limit = { 
+		#	    is_megastructure_type = quasi_stellar_obliterator_5 
+		#	}
+		#	remove_megastructure = fromfrom
+		#}
+		from = {
+			country_event = { id = giga_qsc_dialog.2802 }	# Notification
+			set_country_flag = built_quasarcraft
+		}
+	}
+}
+
+#MSCore
+quasarcraft_1 = {
+	entity = "quasarcraft_1_entity"
+	construction_entity = "quasarcraft_1_construction_entity"
+	portrait = "GFX_mega_qsc_bg"
+	upgrade_from = { quasarcraft_0 }
+
+	build_time = 3600
+	resources = {
+		category = megastructures
+		cost = { alloys = 1000000 }
+		upkeep = { alloys = 5000 }
+	}
+
+	potential = {
+		has_ascension_perk = ap_quasarcraft_research
+		has_technology = agx_tech_quasarcraft_2
+	}
+
+	on_build_complete = {
+        from = {
+			country_event = { id = giga_qsc_dialog.2803 }	# Notification
+		}
+	}
+}
+
+#Halo
+quasarcraft_2 = {
+	entity = "quasarcraft_2_entity"
+	construction_entity = "quasarcraft_2_construction_entity"
+	portrait = "GFX_mega_qsc_bg"
+	upgrade_from = { quasarcraft_1 }
+
+	build_time = 3600
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 1250000
+			volatile_motes = 5000
+			exotic_gases = 5000
+			rare_crystals = 5000
+		}
+		upkeep = { alloys = 7500 }
+	}
+
+	potential = {
+		has_ascension_perk = ap_quasarcraft_research
+		has_technology = agx_tech_quasarcraft_3
+	}
+	on_build_complete = {
+        from = {
+			country_event = { id = giga_qsc_dialog.2804 }	# Notification
+		}
+	}
+}
+
+#Halo.gun
+quasarcraft_3 = {
+	entity = "quasarcraft_3_entity"
+	construction_entity = "quasarcraft_3_construction_entity"
+	portrait = "GFX_mega_qsc_bg"
+	upgrade_from = { quasarcraft_2 }
+
+	build_time = 3600
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 1500000
+			volatile_motes = 5000
+			exotic_gases = 5000
+			rare_crystals = 5000
+		}
+		upkeep = { alloys = 9001 }
+	}
+
+	potential = {
+		has_ascension_perk = ap_quasarcraft_research
+		has_technology = agx_tech_quasarcraft_4
+	}
+
+	on_build_complete = {
+        from = {
+			country_event = { id = giga_qsc_dialog.2805 }	# Notification
+		}
+	}
+}
+
+#Engine
+quasarcraft_4 = {
+	entity = "quasarcraft_4_entity"
+	construction_entity = "quasarcraft_4_construction_entity"
+	portrait = "GFX_mega_qsc_bg"
+	upgrade_from = { quasarcraft_3 }
+
+	build_time = 3600
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 1500000
+			volatile_motes = 7500
+			exotic_gases = 7500
+			rare_crystals = 7500
+		}
+		upkeep = { alloys = 12000 }
+	}
+
+	potential = {
+		has_ascension_perk = ap_quasarcraft_research
+		has_technology = agx_tech_quasarcraft_5
+	}
+
+	on_build_complete = {
+		from = { 
+		    set_country_flag = qso_intensity_med 
+			country_event = { id = giga_qsc_dialog.2806 }
+		}
+	}
+}
+
+quasarcraft_5 = {
+	entity = "quasarcraft_5_entity"
+	construction_entity = "quasarcraft_5_construction_entity"
+	portrait = "GFX_mega_qsc_bg"
+	upgrade_from = { quasarcraft_4 }
+
+	build_time = 3600
+	resources = {
+		category = megastructures
+		cost = {
+			alloys = 4000000
+			volatile_motes = 10000
+			exotic_gases = 10000
+			rare_crystals = 10000
+			unity = 50000
+		}
+		upkeep = {
+			alloys = 5000
+			energy = 1000
+		}
+		produces = { sr_magical_neutronium = 10 }
+	}
+
+	potential = {
+		has_ascension_perk = ap_quasarcraft_research
+		has_technology = agx_tech_quasarcraft_6
+	}
+
+	on_build_complete = {
+		from = {
+		    country_event = { id = giga_qsc_dialog.2807 }
+		}
+		fromfrom = {
+			agx_quasarcraft = yes
+		}
+		last_created_fleet = { set_location = fromfrom }
+		remove_megastructure = fromfrom
+	}
+}

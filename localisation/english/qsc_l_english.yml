@@ -1,0 +1,365 @@
+﻿l_english:
+ 
+ ###QUASARCRAFT###
+ ap_quasarcraft_research: "Galactic Warfare"
+ ap_quasarcraft_research_desc: "Even with the great might of the §HQuasi-Stellar Obliterator§!, it has become glaringly clear there are horrors not only outclassing the capabilities of the weapon, but acting faster than it can calibrate its shots. \n\nThis therefore necessitates the construction of something even greater than the QSO AND the §HStellar Systemcraft§! combined. Thus is the dawn of a new era of warfare, and of galactic history. \n\n\tSuch is the dawn of an idea so mad within our engineer's minds, that even the ones who dreamed up the Systemcraft deemed it impossible... \n\n§RUntil now.§!"
+ needs_qso_perk: "Requires the §YA Weapon To Pierce the Heavens§! Ascension Perk."
+ needs_systemcraft_perk: "Requires the §YEsoteric Celestial Weaponization§! Ascension Perk"
+ needs_qso_tech: "Requires £physics_research£ §Y$giga_tech_quasi_stellar_6$§! technology."
+ agx_quasarcraft: "Gargantuan Quasarcraft"
+ agx_quasarcraft_plural: "how tf did you get more than 1"
+ quasarcraft_main_01_key: "Forward Quasaric Projector"
+ quasarcraft_main_02_key: "Main Quasaric Body"
+ quasarcraft_halo1_key: "Halo Armaments - First Demicircle"
+ quasarcraft_halo2_key: "Halo Armaments - Second Demicircle"
+ quasarcraft_jupiters_key: "Esoteric Jupiter Satellites"
+ quasarcraft_celfab_key: "Celestial Fabri-Hangars"
+ 
+ QSC_LASER: "Quasaric Sunsplitter"
+ QSC_LASER_DESC: "Similiar to the Nicoll-Dyson Beam, the Sunsplitter focuses the diverted power of the Hyperquasar into a beam, which is then split into a myriad of rays by a star-sized prism."
+ QSC_LASER_L: "Jupiter Annihilator"
+ QSC_LASER_L_DESC: "These massive lances mounted on the Quasarcraft's Jupiter Arrays rain hell upon your foes, shattering the atoms of their very being."
+ QSC_ENERGY_LANCE: "Quasaric Skyripper"
+ QSC_ENERGY_LANCE_DESC: "The Skyripper cannons are designed to deter larger, stronger vessels such as Systemcrafts or Herculeans, focusing Quasaric Energy on a macro-scale, enough to shred stars by themselves."
+ QSC_STRIKE_FORCE: "Celestial Strike Forces"
+ QSC_STRIKE_FORCE_DESC: "No capital ship fights alone. The Celestial Strike Forces emerge from their grand hangars to deter any hope of infiltrating the king of the celestial warships. A myriad of planetcrafts freshly fabricated, armed and ready. Automated as well."
+ QSC_TITANIC_GUN: "Quasi-Stellar Obliterator"
+ QSC_TITANIC_GUN_DESC: "An immense weapon based on the old QSO weapon, but adapted for use as a ship weapon. A firearm of fear to strike terror into the collective conscious of the enemy."
+ QSC_PLANET_LANCE: "Quasarcraft's Eye"
+ QSC_PLANET_LANCE_DESC: "The power of this weapon almost escapes words, but our engineers came up with an apt phrase: 'The Fury of a Trillion Suns'. This weapon draws upon massive portions of the Quasarcraft's full power to utterly obliterate the target."
+ QSC_ENDSINGER: "§MThe Endsinger§!"
+ QSC_ENDSINGER_DESC: "The only thing they know, will be despair as this utterly powerful re-tooling of the original QSO's destructive power comes in a package anew. Truly, this warship is the storm that is approaching. §MThe Endsinger§! allows the Quasarcraft to have fine control over the amount of destruction it unleashes."
+ 
+ QSC_REACTOR: "Enslaved Hyperquasar"
+ QSC_REACTOR_DESC: "The heart of the Galaxy beats within the gentle cage of the Quasarcraft, providing immense amounts of energy."
+ QSC_THRUSTER: "Spacio-Gravitic Manuevering Array"
+ QSC_THRUSTER_DESC: "An utterly gargantuan set of maneuvering devices capable of translating the mighty craft through systems with great haste."
+ QSC_DRIVE: "Quasaric Event Horizon Projector"
+ QSC_DRIVE_DESC: "Instead of warping the entire 2 lightyears worth of warship through hyperspace, our engineers took inspiration from the EHOF, creating a massive wormhole projector that stretches a wormhole behind the Quasarcraft, which the gargantuan starship then backs into."
+ QSC_SENSOR: "Spacio-Temporal Stringreader"
+ QSC_SENSOR_DESC: "While not actually measuring cosmic string vibrations, the Stringreader still does amazing work through intense hyperspacial-reference mapping, precise enough to pinpoint a single person on a planet."
+ QSC_COMPUTER: "Harbinger Starship Intelligence"
+ QSC_COMPUTER_DESC: "The Harbinger System coordinates and synchronizes actions and commands from across the gargantuan machine, allowing for deadly efficiency in dispatching hostile forces."
+ QUASARCRAFT_BEHAVIOR_DESC: "The Quasarcraft will stay at the edge of the system and target anything hostile in the star system."
+ 
+ QSC_AURA_GRAVSNARE: "Gravitic Flux Field"
+ QSC_AURA_GRAVSNARE_DESC: "Utilizing the immense gravity around the Hyperquasar, we can project and manipulate a field of spacetime around the quasarcraft, desynchronising hostile chronology and also trapping them to assure their untimely demise."
+ QSC_AURA_EYE: "Eye of Hawking"
+ QSC_AURA_EYE_DESC: "With the great precision of our Quasarcraft's Stringreader, we can further utilize the data by relaying them to our additional forces, allowing them to have greatly increased efficiency in firepower."
+ QSC_AURA_GRAVSPEED: "Slipstream Field"
+ QSC_AURA_GRAVSPEED_DESC: "The Slipstream Field smoothens the journeys of friendly interlopers, giving them incredible speed across the system and streamlining hyperspace travel."
+ QSC_AURA_DEATHFIELD: "Quasaric Presence"
+ QSC_AURA_DEATHFIELD_DESC: "The aspects of the Quasarcraft's immense size can quite simply be used to crush less resilient vessels with emitted ambient energy and manipulated gravity."
+
+ 
+ FLEETORDER_DESTROY_PLANET_WITH_QSC_ENDSINGER: "Singing the end of $PLANET|Y$"
+ MESSAGE_DESC_FOR_QSC_ENDSINGER: "$PLANET|Y$'s existence was ended."
+ QSC_ENDSINGER_ACTION: "Fire Endsinger"
+ 
+ 
+ aura_ship_quasar_snare: "Gravitic Snare"
+ aura_quasar_eye: "Eye of Hawking"
+ aura_quasar_speed: "Slipstream Field"
+ aura_quasar_dot: "Quasar Energetic Deathfield"
+ 
+ ##########MEGAS###########
+ 
+ requires_no_existing_quasarcraft: "Requires no existing Quasarcraft"
+ must_build_around_qso: "Must be built around the Quasi-Stellar Obliterator"
+ 
+ quasarcraft_0: "§MQuasarcraft Foundation§!"
+ quasarcraft_0_DESC: "The foundation upon which we shall assemble the greatest armament the galaxy has ever seen."
+ quasarcraft_0_MEGASTRUCTURE_DETAILS: ""
+ quasarcraft_1: "§MQuasi-Stellar Superstructure§!"
+ quasarcraft_1_DESC: "The modified core of the former Quasi-Stellar Obliterator, the new core focuses on diversion of power evenly across a massive hull, filled to the brim with important circuitry and armaments."
+ quasarcraft_2: "§MQuasarcraft Halo§!"
+ quasarcraft_2_DESC: "The great ring of the §MQuasarcraft§!, with integrated gravity adjusters and hyperdimensional hull stabilization, the halo will play the paramount role of the artillery foundation."
+ quasarcraft_3: "§MQuasarcraft Armaments Ring§!"
+ quasarcraft_3_DESC: "The grandest armament, befitting the king of the celestial warships. The §MQuasarcraft§! will rend utter destruction upon our foes."
+ quasarcraft_4: "§MQuasaric EHOF§!" 
+ quasarcraft_4_DESC: "The gargantuan wormhole projector that serves as the backbone of the Quasarcraft's transportation, it will facilitate transportation via Micro-Wormholes throughout the universe."
+ quasarcraft_5: "§MThe Quasarcraft§!" 
+ quasarcraft_5_DESC: "The now completed Quasarcraft, ready to purge all that is evil from the universe."
+ ##Stuff below is not currently used##
+ quasarcraft_marker_star: "'Inevitability' Beacon"
+ quasarcraft_marker_star_DESC: "I am inevitable."
+ quasarcraft_marker_star_MEGASTRUCTURE_DETAILS: "Fear it. Dread it. Run from it. Destiny arrives all the same."
+ 
+ quasarcraft_marker_star_open: "Prepare to die."
+ quasarcraft_marker_star_open_DESC: "Enjoy your last moments."
+ 
+ quasarcraft_marker_star_firing: "Death."
+ quasarcraft_marker_star_firing_DESC: "Some people laughed. Some people cried. Most were screaming."
+ 
+ ##########EVENTS##########
+ 
+ giga_qsc.1040.name: "Hope's End"
+ giga_qsc.1040.desc: "It's gone...the mightiest of weapons, and our last hope of exterminating the great horrors...has been destroyed."
+ giga_qsc.1040.a: "Impossible!"
+ 
+ giga_qsc_dialog.2801.name: "Galactic Warfare"
+ giga_qsc_dialog.2801.desc: "Ever since the completion of the §HQuasi-Stellar Obliterator§!, the scale of the horrors we face has only gotten greater. \n\nHelpless were we to watch as powers beyond our home 'land' became so great that even our stop-gap upgrades to things such as the §HSystemcraft§! became nought more than ants against the tide.\n\n§RNo longer.§!\n\nOur very brightest minds have dreamt up something far grander than anything devised before. Something spoken of like a myth, a legend. But now... blueprints are being drafted. For nothing other than what is currently dubbed:\n\n§MThe Gargantuan Quasarcraft!§!"
+ giga_qsc_dialog.2801.a: "And thus begins our mightiest ambition."
+ 
+ giga_qsc_dialog.2802.name: "The Great Ambition"
+ giga_qsc_dialog.2802.desc: "We have just finished our modifications to the §HQuasi-Stellar Obliterator§!. From here on out we will transform the mighty weapon into an even mightier battleship - §MThe Quasarcraft!§!\n\n Though once a pipe dream, this foundational restructuring of the QSO is the vital first step to realizing the dream."
+ giga_qsc_dialog.2802.a: "Let the great ambition be fufilled, to the end!"
+ 
+ giga_qsc_dialog.2803.name: "The Galactic Heart"
+ giga_qsc_dialog.2803.desc: "The central core of the §HQuasi-Stellar Obliterator§! has been refitted, not only to provide even more power to the future platform, but to increase optimization of both the Obliterator's own processes and our future additions."
+ giga_qsc_dialog.2803.a: "And thus the great heart of the galaxy beats within in our grasp."
+ 
+ giga_qsc_dialog.2804.name: "The Gargantuan Ring"
+ giga_qsc_dialog.2804.desc: "Our engineers have finished the first stages of the §H"Armaments Halo"§!, filled with power dividers to supplant countless cannons and lasers with Quasaric Energy, fueling the destructive power of our ultimate battle 'station'."
+ giga_qsc_dialog.2804.a: "Power! Unlimited Power!!!"
+ 
+ giga_qsc_dialog.2805.name: "One-Ringed Angel"
+ giga_qsc_dialog.2805.desc: "The power of a trillion suns, washing away the stains of time... Or, to put it more bluntly: Our enemies. The weaponry onboard the §MQuasarcraft§! dwarfs anything built before it."
+ giga_qsc_dialog.2805.a: "In the end, they won't even matter."
+ 
+ giga_qsc_dialog.2806.name: "Providence"
+ giga_qsc_dialog.2806.desc: "No matter where in the cosmos, we will be able to find and pass judgement upon those who would wish to do us and our allies harm.\n\n§R(ATTENTION! Design the Quasarcraft in the Ship Designer BEFORE activating the next stage!)§!"
+ giga_qsc_dialog.2806.a: "Our foes will be just a burning memory."
+ 
+ giga_qsc_dialog.2807.name: "§MThe Gargantuan of the Heavens§!"
+ giga_qsc_dialog.2807.desc: "After all this time, it is finally complete. The greatest weapon the galaxy has ever known.\n\n §MThe Gargantuan Quasarcraft.§!\n\nIt has shifted from its position in the galactic core, the feed of the vessel's first movement bringing tears to our engineer's eyes. It is said the mountains don't give back what they take, but this 'mountain' we have surpassed has instilled a ferocious pride throughout our empire. Admirals are already clamoring for the fabled spot of the Quasaric Commander. \n\nThe §MQuasarcraft§! is on standby, awaiting orders."
+ giga_qsc_dialog.2807.a: "We are the Alpha and the Omega, your beginning and your end."
+ 
+ agx_tech_quasarcraft_1: "An Armament of Galactic Proportions"
+ agx_tech_quasarcraft_1_desc: "With the advent of mightier foes, even such things like the Systemcraft are no longer strong enough. Our finest minds have thus began dreaming, and it is time to create a weapon to not only pierce the heavens, but to dominate the heavens. So begins the §MQuasarcraft Project.§!"
+ allow_quasarcraft_p0: "Unlocks the foundation of the §MQuasarcraft§!"
+ desc_quasarcraft_p0: "The Quasi-Stellar Obliterator can now be refitted to suit the construction of the Quasarcraft."
+ 
+ agx_tech_quasarcraft_2: "Quasaric Fortress Core"
+ agx_tech_quasarcraft_2_desc: "To lay the foundation upon which we will build the ultimate armament, we must first tear down the old. By refitting our §MQuasi-Stellar Obliterator§!, we can create not only a more defended facility, but an impenetrable fortress, a fully functional battlestation."
+ allow_quasarcraft_p1: "Unlocks the First Stage of the §MQuasarcraft§!"
+ desc_quasarcraft_p1: "Construction can commence on refitting the core of the QS-O."
+ 
+ agx_tech_quasarcraft_3: "Galactic Halo"
+ agx_tech_quasarcraft_3_desc: "Our core already has great defence against enemy attacks, but we must also take into account our offense. To this effect, a great myriad of the strongest weaponry we can envision will be fitted onto a grand ring surrounding the core. A halo, if one wills."
+ allow_quasarcraft_p2: "Unlocks the Second Stage of the §MQuasarcraft§!"
+ desc_quasarcraft_p2: "The Halo of the Quasarcraft can now be constructed."
+ 
+ agx_tech_quasarcraft_4: "Trillion Suns Wrath"
+ agx_tech_quasarcraft_4_desc: "The development of the weaponry for the §MQuasarcraft§! has been staggering, in terms of the raw power available. Our great minds have thus designed several truly gargantuan weapons that use the enhanced power of the Quasar, even retrofitting the old QSO weapons into something anew, and creating an incredibly powerful prototype component blueprint known only as... §RThe Endsinger.§!"
+ allow_quasarcraft_p3: "Unlocks the Third Stage of the §MQuasarcraft§!"
+ desc_quasarcraft_p3: "The Halo can now be fitted with its armaments."
+ 
+ agx_tech_quasarcraft_5: "Quasaric Event Horizon Offsetting"
+ agx_tech_quasarcraft_5_desc: "Now that all of the main armaments have been installed, the question arises, 'How are we supposed to be able to transport such mass across the galaxy?' The answer lies in the past - the §HEvent Horizen Offset Facility§!. Using advancements made in both fields, we will construct a gigastructural EHOF on the back of the §MQuasarcraft§!, which will expand wormholes to allow the mobile terastructure to 'jump' immense distances."
+ allow_quasarcraft_p4: "Unlocks the Fourth Stage of the §MQuasarcraft§!"
+ desc_quasarcraft_p4: "The Q-EHOF can now be installed onto the §MQuasarcraft§!"
+ 
+ agx_tech_quasarcraft_6: "§RThe Gargantuan Quasarcraft§!"
+ agx_tech_quasarcraft_6_desc: "The final designs and necessary facilities of the §MQuasarcraft§! are being finalized, and now the blueprint becomes available to us to design as we please. Engineers can barely contain their excitement, for the dream is almost fully realized."
+ allow_quasarcraft_p5: "Unlocks the Final Stage of the §MQuasarcraft§!, and the ship itself in the Designer."
+ desc_quasarcraft_p5: "§RDesign the Quasarcraft BEFORE finishing the final stage!§!"
+ 
+ qsc_fatesayer.001.name: "The Fatesayer's Will"
+ qsc_fatesayer.001.desc: "$[Root.GetName]|Y$ has been marked for judgement. What will be the fate of this world? Or, shall we commence a galactic-scale event from this location?"
+ qsc_fatesayer.001.a: "Target: §MGALACTIC§!"
+ qsc_fatesayer.001.b: "Target: §HSTELLAR§!"
+ qsc_fatesayer.001.c: "Target: §YSOLAR§!"
+ qsc_fatesayer.001.d: "Target: §GPLANETARY§!"
+ qsc_fatesayer.001.e: "Target: §RMICROSCALE§!"
+ qsc_fatesayer.002.b: "It shall be spared...for now."
+ 
+ qsc_fatesayer.010.name: "Target: §MGALACTIC§!"
+ qsc_fatesayer.010.desc: "You have selected a §MGalactic§! target. \n\nFrom here, you can commence galaxy-wide attacks from the safety of the Quasarcraft."
+ qsc_fatesayer.010.a: "Quasi-Stellar Galactic Bombardment"
+ qsc_fatesayer.010.b: "Multi-Instance System Targeting"
+ qsc_fatesayer.010.c: "Multi-Instance Fire Support"
+ qsc_fatesayer.012.b: "Perhaps this is a bad spot...or just a bad view."
+ 
+ qsc_fatesayer.110.name: "§RQuasi-Stellar Galactic Bombardment§"
+ qsc_fatesayer.110.desc: "You have chosen to §Rbombard the entire galaxy§! with the Quasarcraft. \n\nThis will destroy any fleets and installations in §Rhostile§! and §Gallied§! territory, including your own. \nSecondary effects include the §Ycontamination§! of all planets in the affected system, as well as potential §Mdimensional outbreaks§!. \n\n§RAre your sure about this?§!"
+ qsc_fatesayer.110.a: "§RDo it.§!"
+ qsc_fatesayer.110.b: "No. Not yet."
+ 
+ qsc_fatesayer.111.name: "Galactic Purification"
+ qsc_fatesayer.111.desc: "As the Quasarcraft charges its arsenal in anticipation of the final order. You can't help but think of the trillions of lives that is about to witness the unrelenting fury of your great creation. Will they be scared? Horrified? Or perhaps just proud to be alive at this moment of Galactic History? What will this make me? What am I in the face of myself and the galaxy? Your thoughts are interrupted by the notification from your crew. \n\nIt's ready. \n\nOn your signal. \n\nThis is your last chance to decide."
+ qsc_fatesayer.111.a: "§REtiam deus moritur.§"
+ qsc_fatesayer.111.b: "...no. I can't. Reset the armaments."
+ 
+ qsc_fatesayer.112.name: "Aurora Puritatis"
+ qsc_fatesayer.112.desc: "The superstructre trembles as the Quasarcraft sends a bleached, luminant beam into the dark sea. In the blink of an eye, the galaxy is flooded with Quasi-Storms, rapturing everything. Natural, manmade, shroudborn, nothing can withstand the chaotic disruption. \n\nOur scientists speculate that it'll take at least a year before the storm disperses."
+ qsc_fatesayer.112.a: "It is done."
+ 
+ qsc_fatesayer.113.name: "Pluit Mors"
+ qsc_fatesayer.113.desc: "On a peaceful day, like any other, no one could've imagine that next second, the entire galaxy would be engulfed in an unimaginably powerful disruption of cosmic scales. Every world, every ship, nothing could evade the fury of the stars."
+ qsc_fatesayer.113.a: "Who...what could have done this?!"
+ 
+ qsc_fatesayer.120.name: "§GMulti-Instance System Targeting§"
+ qsc_fatesayer.120.desc: "The Quasarcraft has nearly full control of its firepower, adjusting to different circumstances with different levels of destruction \n\nFor this scenario, the weapons will be concentrated and directed into a single beam, which will then be split across several different star systems, destroying everything targeted."
+ qsc_fatesayer.120.a: "Initiate Targeting Process"
+ qsc_fatesayer.120.b: "Fire Control"
+ qsc_fatesayer.120.c: "Return"
+ 
+ qsc_fatesayer.121.name: "M.I.S.T. Controls"
+ qsc_fatesayer.121.desc: "From here, you can order the Quasarcraft to fire upon "
+ qsc_fatesayer.121.a: "Fire!"
+ qsc_fatesayer.121.b: "The Markers are still not in place."
+ qsc_fatesayer.121.c: "Cancel the targeting."
+ qsc_fatesayer.121.d: "Return"
+ 
+ qsc_fatesayer.130.name: "§GMulti-Instance Fire Support§"
+ qsc_fatesayer.130.desc: "The Quasarcraft has nearly full control of its firepower, adjusting to different circumstances with different levels of destruction. \n\nIn this case, the arsenal will be used as fleet support, providing heavy artillery fire to support different fleets across your empire. \n\nTo do this, one or more calibrator ships can be placed at the desired location, which once calibrated, will direct a wormhole between the Quasarcraft and the system, from which the former will begin its assault."
+ qsc_fatesayer.130.a: "Deploy Calibrator Ship"
+ qsc_fatesayer.130.b: "Fire Control"
+ qsc_fatesayer.130.c: "Return"
+ 
+ qsc_fatesayer.131.name: "Harbinger Calibration Beacon Deployed!"
+ qsc_fatesayer.131.desc: "A guidance beacon has been prepared by your orders. To use it, send it to the desired system where you want the Quasarcraft's support."
+ qsc_fatesayer.131.a: "Alright, let's get it on."
+ 
+ qsc_fatesayer.132.name: "Calibration Units Disbanded"
+ qsc_fatesayer.132.desc: "All guidance beacons have been disabled. The Quasarcraft has reset its targeting systems, and is ready for your next order."
+ qsc_fatesayer.132.a: "Understood."
+ 
+ qsc_fatesayer.133.name: "Calibration Units Destroyed"
+ qsc_fatesayer.133.desc: "All guidance beacons have been destroyed. The Quasarcraft has reset its targeting systems, and is ready for your next order."
+ qsc_fatesayer.133.a: "Understood."
+ 
+ qsc_fatesayer.134.name: "Fire Support Controls"
+ qsc_fatesayer.134.desc: "Calibration Units are moving to designated positions. \n\nYou may give the order to fire when you're ready."
+ qsc_fatesayer.134.fire: "Initiate Fire Support!"
+ qsc_fatesayer.134.markers: "The calibrators have yet to reach their destinations."
+ qsc_fatesayer.134.cancel: "Cancel the Order"
+ qsc_fatesayer.134.return: "Return"
+ 
+ qsc_fatesayer.135.name: "Calibration in Process!"
+ qsc_fatesayer.135.desc: "The Harbinger calibration units are now preparing to relay the link to the Quasarcraft. In 5 days your foes will see the light of heaven."
+ qsc_fatesayer.135.a: "Steady..."
+ 
+ qsc_fatesayer.136.name: "Harbinger Beacons Calibrated!"
+ qsc_fatesayer.136.desc: "The link is ready, and the Quasarcraft has begun firing into the wormhole!"
+ qsc_fatesayer.136.a: "Commence the die."
+ 
+ qsc_fatesayer.137.name: "Wormholes Open"
+ qsc_fatesayer.137.desc: "The wormholes have opened."
+ 
+ qsc_fatesayer.138.name: "Wormholes Close"
+ qsc_fatesayer.138.desc: "The wormholes have closed."
+ 
+ qsc_fatesayer.020.name: "Target: §HSTELLAR§!"
+ qsc_fatesayer.020.desc: "You have selected a §HStellar§! target. \n\nThe local star cluster can be targeted as a whole or precisely picked, either to be erased or re-hyperlaned."
+ qsc_fatesayer.020.a: "Local Star System Disruption"
+ qsc_fatesayer.020.b: "Local Hyperlane Disruption"
+ qsc_fatesayer.020.c: "Local Star System Solar Cleansing"
+ qsc_fatesayer.022.d: "Nah, not this big."
+ 
+ qsc_fatesayer.200.name: "Local Star System Disruption"
+ qsc_fatesayer.200.desc: "You have chosen to disrupt the local star cluster."
+ qsc_fatesayer.200.a: "Commence Disruption"
+ qsc_fatesayer.200.b: "Return"
+ 
+ qsc_fatesayer.201.name: "Disruption Imminent"
+ qsc_fatesayer.201.desc: "Preparing to disrupt the local star cluster."
+ qsc_fatesayer.201.a: "Fire!"
+ qsc_fatesayer.201.b: "Cancel"
+ 
+ qsc_fatesayer.210.name: "Local Hyperlane Disruption"
+ qsc_fatesayer.210.desc: "You have chosen to disrupt the local hyperlane network."
+ qsc_fatesayer.210.a: "Hyperlane Cutting"
+ qsc_fatesayer.210.b: "Hyperlane Rearrangement"
+ qsc_fatesayer.210.c: "Return"
+ 
+ qsc_fatesayer.211.name: "Local Hyperlane Cutting"
+ qsc_fatesayer.211.desc: "You have chosen to sever the local hyperlane network."
+ qsc_fatesayer.211.a: "Severance"
+ qsc_fatesayer.211.b: "Incision"
+ qsc_fatesayer.211.c: "Return"
+ 
+ qsc_fatesayer.2110.name: "Hyperlane Severance"
+ qsc_fatesayer.2110.desc: "You have chosen to sever the local hyperlane network."
+ qsc_fatesayer.2110.a: "Sever Star"
+ qsc_fatesayer.2110.b: "Return"
+ 
+ qsc_fatesayer.2115.name: "Hyperlane Incision"
+ qsc_fatesayer.2115.desc: "You have chosen to sever the local hyperlane network."
+ qsc_fatesayer.2115.a: "Deploy Target Beacon"
+ qsc_fatesayer.2115.b: "Incision Control"
+ qsc_fatesayer.2115.c: "Return"
+ 
+ qsc_fatesayer.2116.name: "Incisor Deployed!"
+ qsc_fatesayer.2116.desc: "The incisor has been deployed."
+ qsc_fatesayer.2116.a: "Acknowledged."
+ 
+ qsc_fatesayer.2117.name: "Incisor Expired!"
+ qsc_fatesayer.2117.desc: "The incisor has expired."
+ qsc_fatesayer.2117.a: "Acknowledged."
+ 
+ qsc_fatesayer.2118.name: "Incision Controls"
+ qsc_fatesayer.2118.desc: "Control Incision."
+ qsc_fatesayer.2118.fire: "Initiate Incision"
+ qsc_fatesayer.2118.cancel: "Incision Control"
+ qsc_fatesayer.2118.return: "Return"
+ 
+ qsc_fatesayer.2119.name: "Incisor calibrating!"
+ qsc_fatesayer.2119.desc: "The incisor is calibrating."
+ qsc_fatesayer.2119.a: "Acknowledged."
+ 
+ qsc_fatesayer.2120.name: "Incisor active!"
+ qsc_fatesayer.2120.desc: "The incisor is active."
+ qsc_fatesayer.2120.a: "Acknowledged."
+ 
+ qsc_fatesayer.220.name: "Local Hyperlane Rearrangement"
+ qsc_fatesayer.220.desc: "You have chosen to rearrange the local hyperlane network."
+ qsc_fatesayer.220.a: "Randomize Hyperlanes"
+ qsc_fatesayer.220.b: "Create Hyperlane Nexus"
+ qsc_fatesayer.220.c: "Return"
+ qsc_fatesayer.220.d: "§RDon't.§" 
+ 
+ qsc_fatesayer.2210.name: "Local Hyperlane Randomize"
+ qsc_fatesayer.2210.desc: "You have chosen to randomize the local hyperlane network."
+ qsc_fatesayer.2210.a: "Commence Randomization"
+ qsc_fatesayer.2210.b: "Return"
+ 
+ qsc_fatesayer.2212.name: "Local Hyperlane Randomize"
+ qsc_fatesayer.2212.desc: "Commence Randomization."
+ qsc_fatesayer.2212.a: "Roger."
+ 
+ qsc_fatesayer.2215.name: "Local Hyperlane Nexus"
+ qsc_fatesayer.2215.desc: "You have chosen to nexus."
+ qsc_fatesayer.2215.a: "Create Nexus"
+ qsc_fatesayer.2215.b: "Return"
+ 
+ qsc_fatesayer.2216.name: "Local Hyperlane Nexus"
+ qsc_fatesayer.2216.desc: "Initiating Nexus Creation."
+ qsc_fatesayer.2216.a: "Nexus."
+ 
+ qsc_fatesayer.230.name: "Local System Cleansing"
+ qsc_fatesayer.230.desc: "You have chosen to cleanse the local star cluster."
+ qsc_fatesayer.230.a: "High Power System Shattering"
+ qsc_fatesayer.230.b: "Low Power System Brushing"
+ qsc_fatesayer.230.c: "Return" 
+ 
+ qsc_fatesayer.2310.name: "High Power System Shattering"
+ qsc_fatesayer.2310.desc: "You have chosen to shatter the next star system."
+ qsc_fatesayer.2310.a: "Shatter Local Cluster"
+ qsc_fatesayer.2310.b: "Return"
+ 
+ qsc_fatesayer.2315.name: "Low Power System Brushing"
+ qsc_fatesayer.2315.desc: "You have chosen to bruh."
+ qsc_fatesayer.2315.a: "bruh"
+ qsc_fatesayer.2315.b: "no"
+ 
+ qsc_fatesayer.030.name: "Target: §YSOLAR§!"
+ qsc_fatesayer.030.desc: "You have selected a §YSolar§! target. \n\nThe Solar System you are in currently will be subject to your Quasarcraft's wrath."
+ qsc_fatesayer.030.a: "Solar Suncrusher"
+ qsc_fatesayer.030.b: "Solar Plasmatic Destabilization"
+ qsc_fatesayer.030.c: "Solar Plasmatic Siphon"
+ qsc_fatesayer.032.d: "A bit too wide for my liking."
+ 
+ qsc_fatesayer.040.name: "Target: §GPLANETARY§!"
+ qsc_fatesayer.040.desc: "You have selected a §GPlanetary§! target. \n\nPlanets are no more than a bunch of stardust clumped together a bit tightly, but it can be reshaped to your desires with just a finger."
+ qsc_fatesayer.040.a: "Planetary Classic Manipulation"
+ qsc_fatesayer.040.b: "Planetary Subsumption"
+ qsc_fatesayer.042.b: "No...bigger or smaller? It's hard to choose!"
+ 
+ qsc_fatesayer.050.name: "Target: §RMICROSCALE§!"
+ qsc_fatesayer.050.desc: "You have selected a §RMicroscale§! target. \n\nWhether it's someone you despise or the government's capital building, the Quasarcraft can easily make planetary floor tiles out of them."
+ qsc_fatesayer.050.a: "Space-to-ground Population Controller"
+ qsc_fatesayer.050.b: "Surface Army Cleansing"
+ qsc_fatesayer.050.c: "Surface Building Demolishment"
+ qsc_fatesayer.052.b: "I think...it's not big enough."

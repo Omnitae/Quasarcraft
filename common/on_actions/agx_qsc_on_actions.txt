@@ -1,0 +1,32 @@
+# This = Ship
+# From = Disabler Ship
+
+# on_fleet_disbanded = {								events = { qsc_fatesayer.132 qsc_fatesayer.2117 } }
+# on_ship_destroyed_victim = {						events = { qsc_fatesayer.133 } }
+on_monthly_pulse_country = {						
+    events = { 
+	    giga_qsc.202 
+	} 
+}
+
+on_ship_disabled = {
+	events = {
+		giga_qsc.101
+		#giga_qsc.102
+	}
+}
+
+# on_ship_disabled = {
+# 	events = {
+# 		giga_blokkpass.100
+# 		giga_blokkpass.1001
+# 		giga_blokkpass.110
+# 	}
+# }
+
+on_entering_system_fleet = {
+    events = {
+		giga_qsc.201
+        #giga_blokkpass.100
+	}
+}

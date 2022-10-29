@@ -1,0 +1,9 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_ap_quasarcraft_research"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_quasarcraft_research.dds"
+		alwaystransparent = yes
+	}
+}
