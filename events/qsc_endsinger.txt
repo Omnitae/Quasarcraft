@@ -1,38 +1,38 @@
-namespace = qsc_endsinger
+# namespace = qsc_endsinger
 
-country_event = {
-	id = qsc_endsinger.2 #brings up the menu
-	title = "qsc_endsinger.1.title"
-	desc = "qsc_endsinger.1.desc"
-	show_sound = event_dyson_sphere_build_start
-	is_triggered_only = yes
-	diplomatic = yes
-	picture_event_data = {
-		portrait = root.species
-		room = giga_qso_room
-	}
-	option = { name = "qsc_endsinger.3" } #cluster
-	option = { name = "qsc_endsinger.4"} #star
-	option = { name = "qsc_endsinger.5"} #planet
-}
+# country_event = {
+# 	id = qsc_endsinger.2 #brings up the menu
+# 	title = "qsc_endsinger.1.title"
+# 	desc = "qsc_endsinger.1.desc"
+# 	show_sound = event_dyson_sphere_build_start
+# 	is_triggered_only = yes
+# 	diplomatic = yes
+# 	picture_event_data = {
+# 		portrait = root.species
+# 		room = giga_qso_room
+# 	}
+# 	option = { name = "qsc_endsinger.3" } #cluster
+# 	option = { name = "qsc_endsinger.4"} #star
+# 	option = { name = "qsc_endsinger.5"} #planet
+# }
 
-planet_event = { #sets the planet as the target on firing and the QSC as the firing fleet, then calls the menu event on the QSC owner's country
-	id = qsc_endsinger.1
-	hide_window = yes
+# planet_event = { #sets the planet as the target on firing and the QSC as the firing fleet, then calls the menu event on the QSC owner's country
+# 	id = qsc_endsinger.1
+# 	hide_window = yes
 	
-	is_triggered_only = yes
+# 	is_triggered_only = yes
 
 
-	immediate = {
-		save_event_target_as = qsc_endsinger_target
-		from = {
-			save_event_target_as = quasarcraft_firing
-		}
-		quasarcraft_firing.owner = {
-			country_event = { id = qsc_endsinger.2 }
-		}
-	}
-}
+# 	immediate = {
+# 		save_event_target_as = qsc_endsinger_target
+# 		from = {
+# 			save_event_target_as = quasarcraft_firing
+# 		}
+# 		quasarcraft_firing.owner = {
+# 			country_event = { id = qsc_endsinger.2 }
+# 		}
+# 	}
+# }
 
 # country_event = { #placeholder copies
 # 	id = giga_qsc_dialog.2801
