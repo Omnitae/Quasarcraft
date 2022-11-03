@@ -8,7 +8,7 @@ component_set = {
 component_set = {
 	key = "QSC_ENERGY_LANCE"
 
-	icon = "GFX_qsc_starsplitter"
+	icon = "GFX_qsc_skyripper"
 	icon_frame = 1
 }
 
